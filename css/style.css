@@ -288,7 +288,6 @@ a:hover {
 	background-color: #ffffff;
 	font-size: 0.875rem;
 	line-height: 1.5rem;
-	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
 }
 
 .form-control-textarea {
@@ -961,12 +960,11 @@ a:hover {
 	margin-bottom: 0.5rem;
 }
 
-
 /*************************/
 /*     Media Queries     */
 /*************************/	
-/* Min-width 768px */
-@media (min-width: 768px) {
+/* Min-width 610px */
+@media (min-width: 610px) {
 
 	/* Header */
 	.header {
@@ -980,7 +978,6 @@ a:hover {
 	}
 	/* end of header */
 
-
 	/* Statistics */
 	.counter .counter-cell {
 		display: inline-block;
@@ -990,6 +987,62 @@ a:hover {
 	}
 	/* end of statistics */
 
+	.navbar {
+		padding-top: 1.75rem;
+		background-color: #f0f0f0;
+		box-shadow: none;
+	}
+
+	.navbar.top-nav-collapse {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		background-color: #292929;
+		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.09);
+	}
+
+	.offcanvas-collapse {
+		position: static;
+		top: auto;
+		bottom: auto;
+		left: auto;
+		width: auto;
+		padding-right: 0;
+		padding-left: 0;
+		background-color: transparent;
+		overflow-y: visible;
+		visibility: visible;
+	}
+
+	.offcanvas-collapse.open {
+		-webkit-transform: none;
+		transform: none;
+	}
+
+	.navbar .navbar-nav {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	
+	.navbar .nav-item .nav-link {
+		padding-right: 0.75rem;
+		padding-left: 0.75rem;
+	}
+
+	.navbar .dropdown-menu {
+		padding-top: 0.75rem;
+		padding-bottom: 0.75rem;
+		box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.02);
+	}
+
+	.navbar .dropdown-divider {
+		width: 90%;
+	}
+
+	.navbar .nav-item .btn-solid-sm {
+		margin-top: 0;
+		margin-left: 1rem;
+	}
+	/* end of navigation */
 
 	/* Extra Pages */
 	.ex-basic-1 .text-box {
@@ -1083,8 +1136,6 @@ a:hover {
 		margin-left: 1rem;
 	}
 	/* end of navigation */
-
-
 
 	/* Navigation */
 	.navbar {
