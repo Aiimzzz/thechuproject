@@ -964,8 +964,8 @@ a:hover {
 /*************************/
 /*     Media Queries     */
 /*************************/	
-/* Min-width 610px */
-@media (min-width: 410px) {
+/* Min-width 768px */
+@media (min-width: 768px) {
 
 	/* Header */
 	.header {
@@ -1321,7 +1321,7 @@ a:hover {
 	
 	/* General Styles */
 	.container {
-		max-width: 1140px;
+		max-width: 1130px;
 	}
 	/* end of general styles */
 	
