@@ -1,0 +1,89 @@
+.bottom-section {
+    display: flex;
+    width: 100%;
+}
+
+.flooring-item {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px rgba(68, 67, 67, 0.5);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.flooring-item:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 80%;
+}
+
+.flooring-item h2 {
+    transition: transform 0.5s ease;
+    color: azure;
+}
+
+.spc-flooring {
+    background-size: cover;
+    background-position: center;
+    background-image: url(/Backend/images/flooring/webb.png);
+}
+
+.luxury-vinyl {
+    background-size: cover;
+    background-position: center;
+    background-image: url(/Backend/images/flooring/webbb.png);
+}
+
+/* Hover effect for the bottom sections */
+.flooring-item:hover h2 {
+    transform: translateY(-20px); /* Move the text up when hovered */
+}
+
+/** Wallpaper **/
+.wallpaper-item {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px rgba(68, 67, 67, 0.5);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.wallpaper-item:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 80%;
+}
+
+.wallpaper-item h2 {
+    transition: transform 0.5s ease;
+    color: azure;
+}
+
+.wallpaper-rollbesar {
+    background-size: cover;
+    background-position: center;
+    background-image: url(/Backend/images/wallpaper/wall.png);
+}
+
+.wallpaper-rollkecil {
+    background-size: cover;
+    background-position: center;
+    background-image: url(/Backend/images/wallpaper/wall\ 1.jpg);
+}
+
+/* Hover effect for the bottom sections */
+.wallpaper-item:hover h2 {
+    transform: translateY(-20px); /* Move the text up when hovered */
+}
+
+
